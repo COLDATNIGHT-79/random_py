@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  overflow: hidden; /* Hide scrollbars since our canvas fills the viewport */
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#input-container {
+  text-align: center;
+  margin: 10px;
+}
+
+#messageInput {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#submitButton {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#canvas-container {
+  position: absolute;
+  top: 80px; /* Leave room for title and input */
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
